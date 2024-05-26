@@ -1,12 +1,15 @@
 import { Plugin } from "../../types/plugin";
 
+import { RankCommand } from "./slash/rank";
+
 export const LevelsPlugin: Plugin = {
     config: {
-        name: "Levels",
-        disableable: true
+        name: "Levels"
     },
     buttons: [],
-    slashCommands: [],
+    slashCommands: [
+        RankCommand
+    ],
     prefixCommands: [],
     events: [],
     afterLoad: () => {

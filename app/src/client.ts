@@ -2,11 +2,8 @@ import {
     Client,
     GatewayIntentBits,
     Partials,
-    Collection,
-    ColorResolvable
+    Collection
 } from "discord.js";
-
-import { env } from "./env";
 
 import { PluginManager } from "./managers/plugin";
 import { Plugins } from "./plugins/plugins";

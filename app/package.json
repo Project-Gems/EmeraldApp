@@ -18,6 +18,7 @@
   "homepage": "https://github.com/project-gems/emeraldapp#readme",
   "devDependencies": {
     "nodemon": "^3.1.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   },
   "dependencies": {
