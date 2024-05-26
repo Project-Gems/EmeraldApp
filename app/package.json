@@ -1,0 +1,29 @@
+{
+  "name": "emerald-app",
+  "version": "1.0.0",
+  "author": "Kewwie",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/project-gems/emeraldapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/project-gems/emeraldapp/issues"
+  },
+  "homepage": "https://github.com/project-gems/emeraldapp#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^2.3.0",
+    "discord-api-types": "^0.37.85",
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5"
+  }
+}
