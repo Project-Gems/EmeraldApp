@@ -1,4 +1,5 @@
 import { Plugin } from "../../types/plugin";
+import { LevelsCommand } from "./slash/levels";
 
 import { RankCommand } from "./slash/rank";
 
@@ -8,6 +9,7 @@ export const LevelsPlugin: Plugin = {
     },
     buttons: [],
     slashCommands: [
+        LevelsCommand,
         RankCommand
     ],
     prefixCommands: [],
